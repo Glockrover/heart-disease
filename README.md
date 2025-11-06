@@ -50,7 +50,7 @@ The feature importance analysis highlighted the key features influencing the mod
 Future Work
 Future steps could include:
 
-Exploring more advanced models like CatBoost or XGBoost.
-Collecting more data to potentially improve model performance.
-Further feature engineering or selection.
-Developing a deployment strategy for the model if the evaluation metric is met.
+* Exploring more advanced models like CatBoost or XGBoost.
+* Collecting more data to potentially improve model performance.
+* Further feature engineering or selection.
+* Developing a deployment strategy for the model if the evaluation metric is met.
