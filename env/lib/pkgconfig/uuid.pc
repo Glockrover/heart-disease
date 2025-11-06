@@ -1,0 +1,11 @@
+prefix=/home/glockrover/Desktop/heart-disease-project/env
+exec_prefix=/home/glockrover/Desktop/heart-disease-project/env
+libdir=/home/glockrover/Desktop/heart-disease-project/env/lib
+includedir=/home/glockrover/Desktop/heart-disease-project/env/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

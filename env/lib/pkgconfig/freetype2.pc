@@ -1,0 +1,14 @@
+prefix=/home/glockrover/Desktop/heart-disease-project/env
+exec_prefix=/home/glockrover/Desktop/heart-disease-project/env
+libdir=/home/glockrover/Desktop/heart-disease-project/env/lib
+includedir=/home/glockrover/Desktop/heart-disease-project/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 26.2.20
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/home/glockrover/Desktop/heart-disease-project/env/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

@@ -1,0 +1,13 @@
+prefix=/home/glockrover/Desktop/heart-disease-project/env
+exec_prefix=/home/glockrover/Desktop/heart-disease-project/env
+libdir=/home/glockrover/Desktop/heart-disease-project/env/lib
+sharedlibdir=/home/glockrover/Desktop/heart-disease-project/env/lib
+includedir=/home/glockrover/Desktop/heart-disease-project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

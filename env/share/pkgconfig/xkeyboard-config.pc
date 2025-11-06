@@ -1,0 +1,7 @@
+
+datadir=/home/glockrover/Desktop/heart-disease-project/env/share
+xkb_base=/home/glockrover/Desktop/heart-disease-project/env/share/X11/xkb
+
+Name: XKeyboardConfig
+Description: X Keyboard configuration data
+Version: 2.44

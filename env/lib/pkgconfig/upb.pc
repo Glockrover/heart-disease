@@ -1,0 +1,10 @@
+prefix=/home/glockrover/Desktop/heart-disease-project/env
+exec_prefix=/home/glockrover/Desktop/heart-disease-project/env
+libdir=/home/glockrover/Desktop/heart-disease-project/env/lib
+includedir=/home/glockrover/Desktop/heart-disease-project/env/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 29.3.0
+Libs: -L${libdir} -lupb -lpthread
+Cflags: -I${includedir}

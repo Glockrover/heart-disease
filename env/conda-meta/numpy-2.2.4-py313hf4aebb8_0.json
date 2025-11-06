@@ -1,0 +1,42 @@
+{
+  "build": "py313hf4aebb8_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [
+    "setuptools <74"
+  ],
+  "depends": [
+    "mkl_fft",
+    "mkl_random",
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "blas 1.0 mkl",
+    "mkl-service >=2.3.0,<3.0a0",
+    "mkl >=2023.1.0,<2024.0a0",
+    "numpy-base 2.2.4 py313h3fc9231_0"
+  ],
+  "extracted_package_dir": "/home/glockrover/miniconda3/pkgs/numpy-2.2.4-py313hf4aebb8_0",
+  "files": [],
+  "fn": "numpy-2.2.4-py313hf4aebb8_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/glockrover/miniconda3/pkgs/numpy-2.2.4-py313hf4aebb8_0",
+    "type": 1
+  },
+  "md5": "03eecf266f1b6cfd278c948e4a37f646",
+  "name": "numpy",
+  "package_tarball_full_path": "/home/glockrover/miniconda3/pkgs/numpy-2.2.4-py313hf4aebb8_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "numpy==2.2.4=py313hf4aebb8_0",
+  "sha256": "0be2a7c669aa135953333e98dcb8567b7eee1dd824d9f7d004bb3c620c0d4bec",
+  "size": 11314,
+  "subdir": "linux-64",
+  "timestamp": 1742573780000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/numpy-2.2.4-py313hf4aebb8_0.conda",
+  "version": "2.2.4"
+}
