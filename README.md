@@ -7,20 +7,20 @@ The problem can be stated as: Given clinical parameters about a patient, can we 
 ## 2. Data
 The data used in this project is sourced from the Cleveland data from the UCI Machine Learning Repository, also available on Kaggle. The dataset contains various medical attributes for patients, including:
 
-* age: Age of the patient in years
-* sex: Male/Female
-* cp: Chest pain type
-* trestbps: Resting blood pressure (in mm Hg)
-* chol: Serum cholesterol in mg/dl
-* fbs: Fasting blood sugar > 120 mg/dl
-* restecg: Resting electrocardiographic results
-* thalach: Maximum heart rate achieved
-* exang: Exercise-induced angina (True/False)
-* oldpeak: ST depression induced by exercise relative to rest
-* slope: The slope of the peak exercise ST segment
-* ca: Number of major vessels (0-3) colored by fluoroscopy
-* thal: Thallium stress test result (normal; fixed defect; reversible defect)
-* target: The predicted attribute (0 = no heart disease, 1 = heart disease)
+* `age`: Age of the patient in years
+* `sex`: Male/Female
+* `cp`: Chest pain type
+* `trestbps`: Resting blood pressure (in mm Hg)
+* `chol`: Serum cholesterol in mg/dl
+* `fbs`: Fasting blood sugar > 120 mg/dl
+* `restecg`: Resting electrocardiographic results
+* `thalach`: Maximum heart rate achieved
+* `exang`: Exercise-induced angina (True/False)
+* `oldpeak`: ST depression induced by exercise relative to rest
+* `slope`: The slope of the peak exercise ST segment
+* `ca`: Number of major vessels (0-3) colored by fluoroscopy
+* `thal`: Thallium stress test result (normal; fixed defect; reversible defect)
+* `target`: The predicted attribute (0 = no heart disease, 1 = heart disease)
 ## 3. Evaluation
 The evaluation metric for this project is accuracy. The goal is to reach 95% accuracy at predicting heart disease during the proof of concept.
 
@@ -30,9 +30,9 @@ A detailed data dictionary is provided within the notebook, explaining each feat
 ## 5. Modeling
 Several machine learning models were explored and evaluated for this prediction task:
 
-* Logistic Regression
-* K-Nearest Neighbors Classifier
-* Random Forest Classifier
+* `Logistic Regression`
+* `K-Nearest Neighbors Classifier`
+* `Random Forest Classifier`
 The models were trained and tested on a split of the data. Hyperparameter tuning was performed using RandomizedSearchCV and GridSearchCV to optimize model performance.
 
 ## 6. Experimentation and Results
