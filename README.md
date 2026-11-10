@@ -54,3 +54,17 @@ Future steps could include:
 * Collecting more data to potentially improve model performance.
 * Further feature engineering or selection.
 * Developing a deployment strategy for the model if the evaluation metric is met.
+
+## Web App (Next.js)
+A Next.js app in [`web/`](web/) lets you enter a patient's clinical values and predicts whether they have heart disease, using the tuned Logistic Regression model.
+
+```bash
+# (optional) retrain & re-export the model weights to web/src/lib/model.json
+env/bin/python scripts/export_model.py
+
+cd web
+npm install
+npm run dev   # open http://localhost:3000
+```
+
+The model's coefficients are exported to JSON and predictions run in a Next.js API route (`POST /api/predict`), so no Python server is needed.
